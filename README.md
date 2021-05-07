@@ -36,4 +36,12 @@ DATA VISUALIZATION:
 
 Visualizing the data is the most crucial part in analyzing the model. We use WEKA explorer to visualize the data in the form of Histogram plots. Below figures shows the modified data after using the “RemoveMissingValue” filter and removing unwanted attributes such “name”,”Location”,”New_Price”.
   
+CONCLUSION:
+
+After trying and testing 2 different algorithms, the best accuracy was found out in Random Forest Regressor (94.4%) while Machine Learning algorithm produced an accuracy of (83.4%). While new features can be created via feature engineering which may help in predicting the target variable. overall, Random Forest Regressor classifier provides the best result in terms of accuracy for the given dataset, without any feature engineering needed. Because of its simplicity and the fact that it can be implemented relatively easy and quick.
+
+FUTURE SCOPE:
+
+The designed model can be enhanced using neural networks, gradient decent algorithm. These algorithms help in better performance, irrespective of the size of dataset, the same models can be used for big-data analysis also.
+
 
